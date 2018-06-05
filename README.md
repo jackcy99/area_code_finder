@@ -11,7 +11,7 @@ This applicaton will find a location against 3 digit telephone area code. When w
   - Automatically deploy full web application stack on AWS via CloudFormation
 
 ### Landing Zone Design 
-![image](https://gitlab.com/jackcy99/area_code_finder/raw/master/Readme/Slide4.PNG)
+![image](https://github.com/jackcy99/area_code_finder/blob/master/Readme/Slide4.PNG)
 
 # Demonstration URL
 - Area Code Finder demo URL
@@ -21,16 +21,16 @@ This applicaton will find a location against 3 digit telephone area code. When w
     ```
     
     - Homepage (web node 172-24-20-124 at AZ2)
-    ![image](https://gitlab.com/jackcy99/area_code_finder/raw/master/Readme/00_initiallogin.PNG)
+    ![image](https://github.com/jackcy99/area_code_finder/blob/master/Readme/00_initiallogin.PNG)
     
     - Search Result (web node 172-24-20-124 at AZ2)
-    ![image](https://gitlab.com/jackcy99/area_code_finder/raw/master/Readme/01_Result.PNG)
+    ![image](https://github.com/jackcy99/area_code_finder/blob/master/Readme/01_Result.PNG)
     
     - No Search Result (web node 172-24-20-124 at AZ2)
-    ![image](https://gitlab.com/jackcy99/area_code_finder/raw/master/Readme/02_ErrorHandling.PNG)
+    ![image](https://github.com/jackcy99/area_code_finder/blob/master/Readme/02_ErrorHandling.PNG)
     
     - Homepage (web node 172-24-10-99 at AZ1)
-    ![image](https://gitlab.com/jackcy99/area_code_finder/raw/master/Readme/03_anotherAZ.PNG)
+    ![image](https://github.com/jackcy99/area_code_finder/blob/master/Readme/03_anotherAZ.PNG)
 
 # CloutdFormation Scripts Functionalities 
 The sciprts of CloudFormation will achieve following tasks:
@@ -322,7 +322,7 @@ The sciprts of CloudFormation will achieve following tasks:
     ```   
     
 # Web application deployment
-![image](https://gitlab.com/jackcy99/area_code_finder/raw/master/Readme/Slide5.PNG)
+![image](https://github.com/jackcy99/area_code_finder/blob/master/Readme/Slide5.PNG)
 ### Web Application Code (Node.js/Express)
 - /bin/www
     ```
@@ -476,7 +476,7 @@ The following steps explain how to create area code finder AMI :
     
 - Clone code from GitHub repository
     ```
-    git clone https://gitlab.com/jackcy99/area_code_finder.git
+    git clone https://github.com/jackcy99/area_code_finder
     ``` 
     
 - Install MySQL
