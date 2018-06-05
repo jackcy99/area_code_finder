@@ -11,7 +11,7 @@ This applicaton will find a location against 3 digit telephone area code. When w
   - Automatically deploy full web application stack on AWS via CloudFormation
 
 ### Landing Zone Design 
-![image](https://github.com/jackcy99/area_code_finder/blob/master/Readme/Slide4.PNG)
+![image](https://github.com/jackcy99/area_code_finder/blob/master/Readme/Slide4a.PNG)
 
 # Demonstration URL
 - Area Code Finder demo URL
@@ -322,7 +322,7 @@ The sciprts of CloudFormation will achieve following tasks:
     ```   
     
 # Web application deployment
-![image](https://github.com/jackcy99/area_code_finder/blob/master/Readme/Slide5.PNG)
+![image](https://github.com/jackcy99/area_code_finder/blob/master/Readme/Slide5a.PNG)
 ### Web Application Code (Node.js/Express)
 - /bin/www
     ```
