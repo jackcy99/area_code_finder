@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Find out up to 400 North American area code and city mappings here
+  p Created by jackcy99@hotmail.com (#{hostname})
+
+
+  form(method='POST' action='/search_area_code')
+    div.form-group
+      label(for='areacode') Please type in the area code: 
+      input#areacode.form-control(type='number', placeholder='604' name='myareacode' required='true' value=604 max=999 min=1)
+      br
+      br
+      button.btn.btn-primary(type='submit') Find Location
+
+  if errors 
+    ul
+      for error in errors
+        li!= error.msg
